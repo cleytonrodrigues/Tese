@@ -1,0 +1,492 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/cleyton/ontologies/2017/8/untitled-ontology-109"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/cleyton/ontologies/2017/8/untitled-ontology-109">
+    <Prefix name="" IRI="http://www.semanticweb.org/cleyton/ontologies/2017/8/untitled-ontology-109"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Deceased"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SimpleHomicide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EventOfSteal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Circunstancia"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPosState"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPreState"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Theft"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gunShot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CrimeQualificado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FrivolousReason"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Agression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RobberyAndMurder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CircunstanciaAtenuante"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EventOfAgression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LegalObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LegalAct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Victim"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FelonyHomicide"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.cair.za.net/rank"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kill"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Endurant"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#possuiCircunstancia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Live"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#performanceOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perdurant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhysicalDamage"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#participationOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEndurant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Situation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#c1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Subtraction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhysicalAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dead"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crime"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://cair.za.net/defeasible"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Offender"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DisallowedSituation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Robbery"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#realizedThrough"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#frivolousReason"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CircunstanciaAgravante"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Circunstancia"/>
+        <ObjectUnionOf>
+            <Class IRI="#CircunstanciaAgravante"/>
+            <Class IRI="#CircunstanciaAtenuante"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Deceased"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Dead"/>
+            <Class IRI="#Victim"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Action"/>
+        <Class IRI="#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Agression"/>
+        <Class IRI="#LegalAct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Circunstancia"/>
+        <Class IRI="#Situation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CircunstanciaAgravante"/>
+        <Class IRI="#Circunstancia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CircunstanciaAtenuante"/>
+        <Class IRI="#Circunstancia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crime"/>
+        <Class IRI="#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CrimeQualificado"/>
+        <Class IRI="#Crime"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Deceased"/>
+        <Class IRI="#PhysicalAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DisallowedSituation"/>
+        <Class IRI="#Situation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DisallowedSituation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAction"/>
+            <Class IRI="#LegalAct"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Event"/>
+        <Class IRI="#Perdurant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EventOfAgression"/>
+        <Class IRI="#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EventOfSteal"/>
+        <Class IRI="#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty IRI="http://cair.za.net/defeasible"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.cair.za.net/rank"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+        </Annotation>
+        <Class IRI="#EventOfSteal"/>
+        <Class IRI="#Theft"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty IRI="http://cair.za.net/defeasible"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.cair.za.net/rank"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+        </Annotation>
+        <Class IRI="#EventOfSteal"/>
+        <ObjectComplementOf>
+            <Class IRI="#EventOfAgression"/>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FelonyHomicide"/>
+        <Class IRI="#Crime"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FrivolousReason"/>
+        <Class IRI="#CircunstanciaAgravante"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kill"/>
+        <Class IRI="#LegalAct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LegalAct"/>
+        <Class IRI="#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LegalAct"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#participationOf"/>
+                <Class IRI="#LegalObject"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#performanceOf"/>
+                <Class IRI="#Offender"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LegalObject"/>
+        <Class IRI="#Endurant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Offender"/>
+        <Class IRI="#PhysicalAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhysicalAgent"/>
+        <Class IRI="#Endurant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhysicalDamage"/>
+        <Class IRI="#LegalAct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Robbery"/>
+        <Class IRI="#Crime"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RobberyAndMurder"/>
+        <Class IRI="#Crime"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SimpleHomicide"/>
+        <Class IRI="#Crime"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Situation"/>
+        <Class IRI="#Endurant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Subtraction"/>
+        <Class IRI="#LegalAct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Theft"/>
+        <Class IRI="#Crime"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Victim"/>
+        <Class IRI="#PhysicalAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty IRI="http://cair.za.net/defeasible"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.cair.za.net/rank"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+        </Annotation>
+        <ObjectIntersectionOf>
+            <Class IRI="#EventOfAgression"/>
+            <Class IRI="#EventOfSteal"/>
+        </ObjectIntersectionOf>
+        <Class IRI="#Robbery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty IRI="http://cair.za.net/defeasible"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.cair.za.net/rank"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+        </Annotation>
+        <ObjectIntersectionOf>
+            <Class IRI="#EventOfAgression"/>
+            <Class IRI="#EventOfSteal"/>
+        </ObjectIntersectionOf>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasPosState"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasEndurant"/>
+                    <Class IRI="#Deceased"/>
+                </ObjectSomeValuesFrom>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Annotation>
+            <AnnotationProperty IRI="http://cair.za.net/defeasible"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty IRI="http://www.cair.za.net/rank"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+        </Annotation>
+        <ObjectIntersectionOf>
+            <Class IRI="#EventOfAgression"/>
+            <Class IRI="#EventOfSteal"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasPosState"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasEndurant"/>
+                    <Class IRI="#Deceased"/>
+                </ObjectSomeValuesFrom>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class IRI="#RobberyAndMurder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#realizedThrough"/>
+            <Class IRI="#Agression"/>
+        </ObjectSomeValuesFrom>
+        <Class IRI="#EventOfAgression"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#realizedThrough"/>
+            <Class IRI="#Subtraction"/>
+        </ObjectSomeValuesFrom>
+        <Class IRI="#EventOfSteal"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Dead"/>
+        <Class IRI="#Live"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Robbery"/>
+        <Class IRI="#RobberyAndMurder"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Robbery"/>
+        <Class IRI="#Theft"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#RobberyAndMurder"/>
+        <Class IRI="#Theft"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#c1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CircunstanciaAgravante"/>
+        <NamedIndividual IRI="#frivolousReason"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kill"/>
+        <NamedIndividual IRI="#gunShot"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAction"/>
+        <NamedIndividual IRI="#c1"/>
+        <NamedIndividual IRI="#gunShot"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possuiCircunstancia"/>
+        <NamedIndividual IRI="#c1"/>
+        <NamedIndividual IRI="#frivolousReason"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAction"/>
+        <Class IRI="#Situation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEndurant"/>
+        <Class IRI="#Situation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPosState"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPreState"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#participationOf"/>
+        <Class IRI="#LegalAct"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#performanceOf"/>
+        <Class IRI="#LegalAct"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#realizedThrough"/>
+        <Class IRI="#Crime"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAction"/>
+        <Class IRI="#LegalAct"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasEndurant"/>
+        <Class IRI="#Endurant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPosState"/>
+        <Class IRI="#Situation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPreState"/>
+        <Class IRI="#Situation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#participationOf"/>
+        <Class IRI="#LegalObject"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#performanceOf"/>
+        <Class IRI="#Offender"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#possuiCircunstancia"/>
+        <Class IRI="#Circunstancia"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#realizedThrough"/>
+        <Class IRI="#LegalAct"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
