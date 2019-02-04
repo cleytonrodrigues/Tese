@@ -1,0 +1,2230 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Ability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AbstractObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AbuseOfAuthority"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AbuseOfPower"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ActionContribution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ActiveAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Adult"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Agent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AgentMisfortune"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AgentOverSeventy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AgentOverSixty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AgentParticipation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AgentUnderFourteen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AgentUnderTwentyOne"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aggravating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AllowedSituation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AncientRule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Belief"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CNPJ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CPF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Circumstance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CollectiveSocialAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ComissiveCrime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Commitment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConcealingOtherCrime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConflictSituation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CrimeAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CrimeAuthor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CrimeObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CrimeRelator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CriminalAct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CriminalLawRule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CriminallyIncapable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CriminallyLiable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CruelMeansEmployment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CulpableEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DamageRepair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeprivingLiberty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Desire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DisallowedSituation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DomesticViolence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DrinkingDriveLawRule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DutyToAct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Endurant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EnvironmentLawRule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EscapeFromCrimeScene"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FelonyOmission"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FemaleDiscrimination"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FrivolousReason"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fulfilled"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GeneralRule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Guaranteed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Guarantor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GuarantorSkilledPerson"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Handicapped"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HeatOfPassion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Honor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Incriminating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InferiorRule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InstitutionalAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intention"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IntentionalMoment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IntrinsecMoment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JuridicalPerson"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LegalAct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LegalAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LegalCareRelator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LegalEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LegalFelonyOmission"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LegalNorm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LegalNormativeDescription"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LegalObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LegalOmission"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LegalRelator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LegalRule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LexPosteriorRelator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LexSpecialisRelator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LexSuperiorRelator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Life"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Man"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MandatorySituation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaterialObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MentalMoment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MentallyHealthy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MentallySick"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mitigating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Moment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MoralReason"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NaturalPerson"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NoHarmReducation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NonIncriminating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NormRelator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NormativeDescription"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Obligation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OmissiveCrime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Participation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PassiveAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PassiveJuridicalPerson"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PassivePerson"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PassiveSociety"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perdurant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Permission"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhysicalAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhysicalBody"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhysicalObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PositiveLaw"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrecludeDefense"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pregnant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Principle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prohibition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PropertyLawRule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Psychological"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PunishmentAct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PureOmissiveCrime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Qualification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QualifiedSituation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RecentRule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recurrence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Register"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Relative"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RelativePresence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Relator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ResistibleDuress"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RestrictingRight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Situation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SkilledAgentParticipation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SkilledGuarantorParticipation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SkilledPerson"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SocialAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SocialCommitment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SocialMoment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SocialObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SocialReason"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Society"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpecificDutyToAct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpecificRule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#State"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Substantial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SuperiorRule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Turmoil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TypicalEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Underage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnfamiliairtyofLaw"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unfulfilled"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnfulfilledDutyToAct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnfulfilledSpecificDutyToAct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnlawfulEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VoluntaryConfession"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WithoutImmediateAid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Woman"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ObjectParticipation[ObjectParticipation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#allows"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#bears"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#causedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#defines"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#dependenceOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#disallows"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCircumstance"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCivilRepresentant"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCriminalAct"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDisallowedSituation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEndurant"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPosSituation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPreSituation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPunishment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRegister"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasViolatedObject"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inheresIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#injures"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAllowedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAssociatedTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAuthorOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isChosenwrt"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isDefinedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isDisallowedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPartOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPartOfPositiveLaw"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPartOfRule"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPartOfSituation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPosStateOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isQualifiedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isRecognizedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ldefines_remover_talvez"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#match"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#mediates"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#overrules"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#participationOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#performanceOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#protects"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#qualifies"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#recognizes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#specializes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#updates"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#violates"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#ActionContribution"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#performanceOf"/>
+            <Class IRI="#Agent"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ActiveAgent"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isAuthorOf"/>
+            <Class IRI="#CriminalAct"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#AgentParticipation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#participationOf"/>
+            <Class IRI="#Agent"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Circumstance"/>
+        <ObjectUnionOf>
+            <Class IRI="#Aggravating"/>
+            <Class IRI="#Mitigating"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ComissiveCrime"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CriminalAct"/>
+            <Class IRI="#CulpableEvent"/>
+            <Class IRI="#UnlawfulEvent"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Crime"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CulpableEvent"/>
+            <Class IRI="#TypicalEvent"/>
+            <Class IRI="#UnlawfulEvent"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CrimeAuthor"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#ActiveAgent"/>
+            <Class IRI="#CriminallyLiable"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CrimeRelator"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#mediates"/>
+                <Class IRI="#ActiveAgent"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#mediates"/>
+                <Class IRI="#PassiveAgent"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CriminalAct"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#TypicalEvent"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#causedBy"/>
+                <Class IRI="#Intention"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#performanceOf"/>
+                <Class IRI="#ActiveAgent"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CriminallyIncapable"/>
+        <ObjectUnionOf>
+            <Class IRI="#MentallySick"/>
+            <Class IRI="#Underage"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CriminallyLiable"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Adult"/>
+            <Class IRI="#MentallyHealthy"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CulpableEvent"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#LegalEvent"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#participationOf"/>
+                <Class IRI="#CrimeAuthor"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#FelonyOmission"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CulpableEvent"/>
+            <Class IRI="#LegalFelonyOmission"/>
+            <Class IRI="#UnlawfulEvent"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Guarantor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#protects"/>
+            <Class IRI="#Guaranteed"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#GuarantorSkilledPerson"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Guarantor"/>
+            <Class IRI="#SkilledPerson"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Incriminating"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#disallows"/>
+                <Class IRI="#DisallowedSituation"/>
+            </ObjectSomeValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#disallows"/>
+                <Class IRI="#DisallowedSituation"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#LegalCareRelator"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#mediates"/>
+                <Class IRI="#Guaranteed"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#mediates"/>
+                <Class IRI="#Guarantor"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#LegalEvent"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#participationOf"/>
+            <Class IRI="#LegalAgent"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#LegalFelonyOmission"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#SkilledGuarantorParticipation"/>
+            <Class IRI="#TypicalEvent"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasPreSituation"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MandatorySituation"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#hasEndurant"/>
+                        <Class IRI="#UnfulfilledSpecificDutyToAct"/>
+                    </ObjectSomeValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#LegalOmission"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#SkilledAgentParticipation"/>
+            <Class IRI="#TypicalEvent"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasPreSituation"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#MandatorySituation"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#hasEndurant"/>
+                        <Class IRI="#UnfulfilledDutyToAct"/>
+                    </ObjectSomeValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#NonIncriminating"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#allows"/>
+                <Class IRI="#AllowedSituation"/>
+            </ObjectSomeValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#allows"/>
+                <Class IRI="#AllowedSituation"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#NormRelator"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#mediates"/>
+            <Class IRI="#LegalRule"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PassiveAgent"/>
+        <ObjectUnionOf>
+            <Class IRI="#PassiveJuridicalPerson"/>
+            <Class IRI="#PassivePerson"/>
+            <Class IRI="#PassiveSociety"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PassivePerson"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#NaturalPerson"/>
+            <Class IRI="#PassiveAgent"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PureOmissiveCrime"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#CulpableEvent"/>
+            <Class IRI="#LegalOmission"/>
+            <Class IRI="#UnlawfulEvent"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Qualification"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#mediates"/>
+                <Class IRI="#LegalRule"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#mediates"/>
+                <Class IRI="#QualifiedSituation"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#QualifiedSituation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isQualifiedBy"/>
+            <Class IRI="#Qualification"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Relator"/>
+        <ObjectExactCardinality cardinality="2">
+            <ObjectProperty IRI="#mediates"/>
+            <Class IRI="#Endurant"/>
+        </ObjectExactCardinality>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Situation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEndurant"/>
+            <Class IRI="#Endurant"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SkilledAgentParticipation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#participationOf"/>
+            <Class IRI="#SkilledPerson"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SkilledGuarantorParticipation"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#causedBy"/>
+                <Class IRI="#Desire"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#participationOf"/>
+                <Class IRI="#GuarantorSkilledPerson"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TypicalEvent"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#LegalEvent"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasPosSituation"/>
+                <Class IRI="#DisallowedSituation"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UnlawfulEvent"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#LegalEvent"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#violates"/>
+                <Class IRI="#CrimeObject"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ObjectParticipation[ObjectParticipation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#participationOf"/>
+            <Class IRI="#Object"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Ability"/>
+        <Class IRI="#IntrinsecMoment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AbstractObject"/>
+        <Class IRI="#CrimeObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AbstractObject"/>
+        <Class IRI="#SocialObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AbuseOfAuthority"/>
+        <Class IRI="#Aggravating"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AbuseOfPower"/>
+        <Class IRI="#Aggravating"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Action"/>
+        <Class IRI="#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ActionContribution"/>
+        <Class IRI="#Action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ActionContribution"/>
+        <Class IRI="#AgentParticipation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ActiveAgent"/>
+        <Class IRI="#CrimeAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ActiveAgent"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#injures"/>
+            <Class IRI="#PassiveAgent"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Adult"/>
+        <Class IRI="#NaturalPerson"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Agent"/>
+        <Class IRI="#Substantial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgentMisfortune"/>
+        <Class IRI="#Aggravating"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgentOverSeventy"/>
+        <Class IRI="#Adult"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgentOverSixty"/>
+        <Class IRI="#Adult"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgentParticipation"/>
+        <Class IRI="#Participation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgentUnderFourteen"/>
+        <Class IRI="#Underage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgentUnderTwentyOne"/>
+        <Class IRI="#NaturalPerson"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aggravating"/>
+        <Class IRI="#Circumstance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AllowedSituation"/>
+        <Class IRI="#QualifiedSituation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AncientRule"/>
+        <Class IRI="#LegalRule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Belief"/>
+        <Class IRI="#MentalMoment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CNPJ"/>
+        <Class IRI="#Register"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CPF"/>
+        <Class IRI="#Register"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Circumstance"/>
+        <Class IRI="#Situation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Circumstance"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isPartOfSituation"/>
+            <Class IRI="#QualifiedSituation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CollectiveSocialAgent"/>
+        <Class IRI="#SocialAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComissiveCrime"/>
+        <Class IRI="#Crime"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConcealingOtherCrime"/>
+        <Class IRI="#Aggravating"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConflictSituation"/>
+        <Class IRI="#QualifiedSituation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crime"/>
+        <Class IRI="#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CrimeAgent"/>
+        <Class IRI="#LegalAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CrimeAgent"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isDefinedBy"/>
+            <Class IRI="#PositiveLaw"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CrimeAuthor"/>
+        <Class IRI="#ActiveAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CrimeAuthor"/>
+        <Class IRI="#CriminallyLiable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CrimeObject"/>
+        <Class IRI="#LegalObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CrimeObject"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isAssociatedTo"/>
+            <Class IRI="#PassiveAgent"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CrimeObject"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isDefinedBy"/>
+            <Class IRI="#PositiveLaw"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CrimeRelator"/>
+        <Class IRI="#LegalRelator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CriminalAct"/>
+        <Class IRI="#LegalAct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CriminalLawRule"/>
+        <Class IRI="#LegalRule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CriminallyIncapable"/>
+        <Class IRI="#NaturalPerson"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CriminallyLiable"/>
+        <Class IRI="#Adult"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CriminallyLiable"/>
+        <Class IRI="#MentallyHealthy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CruelMeansEmployment"/>
+        <Class IRI="#Aggravating"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CulpableEvent"/>
+        <Class IRI="#LegalEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DamageRepair"/>
+        <Class IRI="#Mitigating"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeprivingLiberty"/>
+        <Class IRI="#PunishmentAct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Desire"/>
+        <Class IRI="#MentalMoment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DisallowedSituation"/>
+        <Class IRI="#QualifiedSituation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DomesticViolence"/>
+        <Class IRI="#Aggravating"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DrinkingDriveLawRule"/>
+        <Class IRI="#LegalRule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DutyToAct"/>
+        <Class IRI="#SocialCommitment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EnvironmentLawRule"/>
+        <Class IRI="#LegalRule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EscapeFromCrimeScene"/>
+        <Class IRI="#Aggravating"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Event"/>
+        <Class IRI="#Perdurant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Event"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPosSituation"/>
+            <Class IRI="#Situation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Event"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPreSituation"/>
+            <Class IRI="#Situation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FelonyOmission"/>
+        <Class IRI="#OmissiveCrime"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FelonyOmission"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#match"/>
+            <Class IRI="#ComissiveCrime"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FemaleDiscrimination"/>
+        <Class IRI="#Aggravating"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fine"/>
+        <Class IRI="#PunishmentAct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FrivolousReason"/>
+        <Class IRI="#Aggravating"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fulfilled"/>
+        <Class IRI="#Commitment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeneralRule"/>
+        <Class IRI="#LegalRule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Guaranteed"/>
+        <Class IRI="#NaturalPerson"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Guarantor"/>
+        <Class IRI="#NaturalPerson"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GuarantorSkilledPerson"/>
+        <Class IRI="#Guarantor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GuarantorSkilledPerson"/>
+        <Class IRI="#SkilledPerson"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Handicapped"/>
+        <Class IRI="#NaturalPerson"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HeatOfPassion"/>
+        <Class IRI="#Mitigating"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Honor"/>
+        <Class IRI="#AbstractObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Incriminating"/>
+        <Class IRI="#LegalRule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InferiorRule"/>
+        <Class IRI="#LegalRule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InferiorRule"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#overrules"/>
+            <Class IRI="#InferiorRule"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InstitutionalAgent"/>
+        <Class IRI="#SocialAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intention"/>
+        <Class IRI="#Commitment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intention"/>
+        <Class IRI="#MentalMoment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IntentionalMoment"/>
+        <Class IRI="#IntrinsecMoment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IntentionalMoment"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#inheresIn"/>
+            <Class IRI="#Agent"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IntrinsecMoment"/>
+        <Class IRI="#Moment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JuridicalPerson"/>
+        <Class IRI="#InstitutionalAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JuridicalPerson"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasCivilRepresentant"/>
+                <Class IRI="#NaturalPerson"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasRegister"/>
+                <Class IRI="#CNPJ"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LegalAct"/>
+        <Class IRI="#ActionContribution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LegalAct"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#performanceOf"/>
+            <Class IRI="#LegalAgent"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LegalAgent"/>
+        <Class IRI="#Agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LegalAgent"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isDefinedBy"/>
+            <Class IRI="#LegalNormativeDescription"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LegalCareRelator"/>
+        <Class IRI="#LegalRelator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LegalEvent"/>
+        <Class IRI="#AgentParticipation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LegalFelonyOmission"/>
+        <Class IRI="#SkilledGuarantorParticipation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LegalNorm"/>
+        <Class IRI="#LegalNormativeDescription"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LegalNorm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#defines"/>
+            <Class IRI="#Qualification"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LegalNorm"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isPartOfPositiveLaw"/>
+            <Class IRI="#PositiveLaw"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LegalNormativeDescription"/>
+        <Class IRI="#LegalObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LegalNormativeDescription"/>
+        <Class IRI="#NormativeDescription"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LegalNormativeDescription"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#defines"/>
+            <Class IRI="#LegalAgent"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LegalNormativeDescription"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#defines"/>
+            <Class IRI="#LegalObject"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LegalObject"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LegalObject"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isDefinedBy"/>
+            <Class IRI="#LegalNormativeDescription"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LegalOmission"/>
+        <Class IRI="#TypicalEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LegalRelator"/>
+        <Class IRI="#Relator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LegalRelator"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#dependenceOf"/>
+            <Class IRI="#Principle"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LegalRelator"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isDefinedBy"/>
+            <Class IRI="#LegalNormativeDescription"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LegalRule"/>
+        <Class IRI="#LegalNorm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LexPosteriorRelator"/>
+        <Class IRI="#NormRelator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LexSpecialisRelator"/>
+        <Class IRI="#NormRelator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LexSuperiorRelator"/>
+        <Class IRI="#NormRelator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Life"/>
+        <Class IRI="#AbstractObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Man"/>
+        <Class IRI="#NaturalPerson"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MandatorySituation"/>
+        <Class IRI="#AllowedSituation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaterialObject"/>
+        <Class IRI="#CrimeObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaterialObject"/>
+        <Class IRI="#PhysicalObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MentalMoment"/>
+        <Class IRI="#IntentionalMoment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MentallyHealthy"/>
+        <Class IRI="#NaturalPerson"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MentallySick"/>
+        <Class IRI="#NaturalPerson"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mitigating"/>
+        <Class IRI="#Circumstance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Moment"/>
+        <Class IRI="#Endurant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Moment"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#dependenceOf"/>
+            <Class IRI="#Substantial"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MoralReason"/>
+        <Class IRI="#Mitigating"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NaturalPerson"/>
+        <Class IRI="#PhysicalAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NaturalPerson"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasRegister"/>
+            <Class IRI="#CPF"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NoHarmReducation"/>
+        <Class IRI="#Aggravating"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NonIncriminating"/>
+        <Class IRI="#LegalRule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NormRelator"/>
+        <Class IRI="#LegalRelator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NormativeDescription"/>
+        <Class IRI="#SocialObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Object"/>
+        <Class IRI="#Substantial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Obligation"/>
+        <Class IRI="#Permission"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OmissiveCrime"/>
+        <Class IRI="#Crime"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Participation"/>
+        <Class IRI="#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PassiveAgent"/>
+        <Class IRI="#CrimeAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PassiveJuridicalPerson"/>
+        <Class IRI="#JuridicalPerson"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PassiveJuridicalPerson"/>
+        <Class IRI="#PassiveAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PassivePerson"/>
+        <Class IRI="#NaturalPerson"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PassivePerson"/>
+        <Class IRI="#PassiveAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PassiveSociety"/>
+        <Class IRI="#PassiveAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PassiveSociety"/>
+        <Class IRI="#Society"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Permission"/>
+        <Class IRI="#Qualification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhysicalAgent"/>
+        <Class IRI="#Agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhysicalBody"/>
+        <Class IRI="#MaterialObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhysicalObject"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PositiveLaw"/>
+        <Class IRI="#LegalNormativeDescription"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PositiveLaw"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isRecognizedBy"/>
+            <Class IRI="#State"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PositiveLaw"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ldefines_remover_talvez"/>
+            <Class IRI="#CrimeAgent"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PositiveLaw"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ldefines_remover_talvez"/>
+            <Class IRI="#CrimeObject"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrecludeDefense"/>
+        <Class IRI="#Aggravating"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pregnant"/>
+        <Class IRI="#Woman"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Principle"/>
+        <Class IRI="#LegalNorm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prohibition"/>
+        <Class IRI="#Permission"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PropertyLawRule"/>
+        <Class IRI="#LegalRule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Psychological"/>
+        <Class IRI="#AbstractObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PunishmentAct"/>
+        <Class IRI="#ActionContribution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PunishmentAct"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isPartOfRule"/>
+            <Class IRI="#LegalRule"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PunishmentAct"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#performanceOf"/>
+            <Class IRI="#State"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PureOmissiveCrime"/>
+        <Class IRI="#OmissiveCrime"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Qualification"/>
+        <Class IRI="#LegalRelator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QualifiedSituation"/>
+        <Class IRI="#Situation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QualifiedSituation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isPartOfRule"/>
+            <Class IRI="#LegalRule"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RecentRule"/>
+        <Class IRI="#LegalRule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RecentRule"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#updates"/>
+            <Class IRI="#AncientRule"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recurrence"/>
+        <Class IRI="#Aggravating"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Register"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Relative"/>
+        <Class IRI="#Aggravating"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RelativePresence"/>
+        <Class IRI="#Aggravating"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Relator"/>
+        <Class IRI="#Moment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ResistibleDuress"/>
+        <Class IRI="#Mitigating"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RestrictingRight"/>
+        <Class IRI="#PunishmentAct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Situation"/>
+        <Class IRI="#Endurant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SkilledAgentParticipation"/>
+        <Class IRI="#AgentParticipation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SkilledGuarantorParticipation"/>
+        <Class IRI="#SkilledAgentParticipation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SkilledPerson"/>
+        <Class IRI="#NaturalPerson"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SkilledPerson"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#bears"/>
+            <Class IRI="#Ability"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialAgent"/>
+        <Class IRI="#Agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialCommitment"/>
+        <Class IRI="#Commitment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialCommitment"/>
+        <Class IRI="#SocialMoment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialMoment"/>
+        <Class IRI="#IntentionalMoment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialObject"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialReason"/>
+        <Class IRI="#Mitigating"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Society"/>
+        <Class IRI="#CollectiveSocialAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecificDutyToAct"/>
+        <Class IRI="#DutyToAct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecificDutyToAct"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#inheresIn"/>
+            <Class IRI="#Guarantor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecificRule"/>
+        <Class IRI="#LegalRule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecificRule"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#specializes"/>
+            <Class IRI="#GeneralRule"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#State"/>
+        <Class IRI="#InstitutionalAgent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Substantial"/>
+        <Class IRI="#Endurant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SuperiorRule"/>
+        <Class IRI="#LegalRule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Turmoil"/>
+        <Class IRI="#Mitigating"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TypicalEvent"/>
+        <Class IRI="#LegalEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Underage"/>
+        <Class IRI="#NaturalPerson"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnfamiliairtyofLaw"/>
+        <Class IRI="#Mitigating"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Unfulfilled"/>
+        <Class IRI="#Commitment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnfulfilledDutyToAct"/>
+        <Class IRI="#DutyToAct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnfulfilledDutyToAct"/>
+        <Class IRI="#Unfulfilled"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnfulfilledSpecificDutyToAct"/>
+        <Class IRI="#SpecificDutyToAct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnfulfilledSpecificDutyToAct"/>
+        <Class IRI="#Unfulfilled"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnlawfulEvent"/>
+        <Class IRI="#LegalEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VoluntaryConfession"/>
+        <Class IRI="#Mitigating"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WithoutImmediateAid"/>
+        <Class IRI="#Aggravating"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Woman"/>
+        <Class IRI="#NaturalPerson"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ObjectParticipation[ObjectParticipation"/>
+        <Class IRI="#Participation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#AllowedSituation"/>
+            <Class IRI="#DisallowedSituation"/>
+        </ObjectIntersectionOf>
+        <Class IRI="#ConflictSituation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasRegister"/>
+            <Class IRI="#CPF"/>
+        </ObjectSomeValuesFrom>
+        <Class IRI="#NaturalPerson"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#ActiveAgent"/>
+        <Class IRI="#PassiveAgent"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Adult"/>
+        <Class IRI="#Underage"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AgentParticipation"/>
+        <Class IRI="#ObjectParticipation[ObjectParticipation"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Aggravating"/>
+        <Class IRI="#Mitigating"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Belief"/>
+        <Class IRI="#Desire"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Belief"/>
+        <Class IRI="#Intention"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ComissiveCrime"/>
+        <Class IRI="#OmissiveCrime"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CriminallyIncapable"/>
+        <Class IRI="#CriminallyLiable"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DeprivingLiberty"/>
+        <Class IRI="#Fine"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DeprivingLiberty"/>
+        <Class IRI="#RestrictingRight"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Desire"/>
+        <Class IRI="#Intention"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Fine"/>
+        <Class IRI="#RestrictingRight"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Fulfilled"/>
+        <Class IRI="#Unfulfilled"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Incriminating"/>
+        <Class IRI="#NonIncriminating"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#LegalRule"/>
+        <Class IRI="#Principle"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Man"/>
+        <Class IRI="#Woman"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MentallyHealthy"/>
+        <Class IRI="#MentallySick"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Moment"/>
+        <Class IRI="#Substantial"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasDisallowedSituation"/>
+        <ObjectProperty IRI="#hasPosSituation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isPartOfPositiveLaw"/>
+        <ObjectProperty IRI="#isPartOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isPartOfRule"/>
+        <ObjectProperty IRI="#isPartOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isPartOfSituation"/>
+        <ObjectProperty IRI="#isPartOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ldefines_remover_talvez"/>
+        <ObjectProperty IRI="#defines"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#overrules"/>
+        <ObjectProperty IRI="#isChosenwrt"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#performanceOf"/>
+        <ObjectProperty IRI="#participationOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#specializes"/>
+        <ObjectProperty IRI="#isChosenwrt"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#updates"/>
+        <ObjectProperty IRI="#isChosenwrt"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isAllowedBy"/>
+        <ObjectProperty IRI="#allows"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isDefinedBy"/>
+        <ObjectProperty IRI="#defines"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#disallows"/>
+        <ObjectProperty IRI="#isDisallowedBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasCircumstance"/>
+        <ObjectProperty IRI="#isPartOfSituation"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasDisallowedSituation"/>
+        <ObjectProperty IRI="#hasCriminalAct"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isPosStateOf"/>
+        <ObjectProperty IRI="#hasPosSituation"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#performanceOf"/>
+        <ObjectProperty IRI="#isAuthorOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isQualifiedBy"/>
+        <ObjectProperty IRI="#qualifies"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isRecognizedBy"/>
+        <ObjectProperty IRI="#recognizes"/>
+    </InverseObjectProperties>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#isChosenwrt"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#specializes"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#allows"/>
+        <Class IRI="#LegalRule"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#bears"/>
+        <Class IRI="#Agent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#causedBy"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#defines"/>
+        <Class IRI="#LegalNormativeDescription"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#disallows"/>
+        <Class IRI="#LegalRule"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCivilRepresentant"/>
+        <Class IRI="#JuridicalPerson"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCriminalAct"/>
+        <Class IRI="#Situation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDisallowedSituation"/>
+        <Class IRI="#CriminalAct"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPosSituation"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPreSituation"/>
+        <Class IRI="#Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPunishment"/>
+        <Class IRI="#LegalRule"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRegister"/>
+        <Class IRI="#Agent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#inheresIn"/>
+        <Class IRI="#IntentionalMoment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#injures"/>
+        <Class IRI="#ActiveAgent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAssociatedTo"/>
+        <Class IRI="#CrimeObject"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isChosenwrt"/>
+        <Class IRI="#LegalRule"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPartOfPositiveLaw"/>
+        <Class IRI="#LegalNorm"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPartOfRule"/>
+        <ObjectUnionOf>
+            <Class IRI="#PunishmentAct"/>
+            <Class IRI="#QualifiedSituation"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPartOfSituation"/>
+        <Class IRI="#Circumstance"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isQualifiedBy"/>
+        <Class IRI="#QualifiedSituation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRecognizedBy"/>
+        <Class IRI="#PositiveLaw"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ldefines_remover_talvez"/>
+        <Class IRI="#PositiveLaw"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#match"/>
+        <Class IRI="#FelonyOmission"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#mediates"/>
+        <Class IRI="#Relator"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#participationOf"/>
+        <Class IRI="#Participation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#protects"/>
+        <Class IRI="#Guarantor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#violates"/>
+        <Class IRI="#UnlawfulEvent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#allows"/>
+        <Class IRI="#QualifiedSituation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#bears"/>
+        <Class IRI="#IntrinsecMoment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#causedBy"/>
+        <Class IRI="#MentalMoment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#defines"/>
+        <ObjectUnionOf>
+            <Class IRI="#LegalAgent"/>
+            <Class IRI="#LegalObject"/>
+            <Class IRI="#Moment"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#disallows"/>
+        <Class IRI="#QualifiedSituation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCivilRepresentant"/>
+        <Class IRI="#NaturalPerson"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCriminalAct"/>
+        <Class IRI="#CriminalAct"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDisallowedSituation"/>
+        <Class IRI="#DisallowedSituation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPosSituation"/>
+        <Class IRI="#Situation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPreSituation"/>
+        <Class IRI="#Situation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPunishment"/>
+        <Class IRI="#PunishmentAct"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRegister"/>
+        <Class IRI="#Register"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#inheresIn"/>
+        <Class IRI="#Agent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#injures"/>
+        <Class IRI="#PassiveAgent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isAssociatedTo"/>
+        <Class IRI="#PassiveAgent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isChosenwrt"/>
+        <Class IRI="#LegalRule"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPartOfPositiveLaw"/>
+        <Class IRI="#PositiveLaw"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPartOfRule"/>
+        <Class IRI="#LegalRule"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPartOfSituation"/>
+        <Class IRI="#QualifiedSituation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isQualifiedBy"/>
+        <Class IRI="#Qualification"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRecognizedBy"/>
+        <Class IRI="#State"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ldefines_remover_talvez"/>
+        <Class IRI="#CrimeAgent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ldefines_remover_talvez"/>
+        <Class IRI="#CrimeObject"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#match"/>
+        <Class IRI="#ComissiveCrime"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#mediates"/>
+        <Class IRI="#Endurant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#participationOf"/>
+        <Class IRI="#Endurant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#protects"/>
+        <Class IRI="#Guaranteed"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#violates"/>
+        <Class IRI="#CrimeObject"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+
