@@ -1,0 +1,1281 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/cleyton/ontologies/2018/8/untitled-ontology-19"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/cleyton/ontologies/2018/8/untitled-ontology-19">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10</Import>
+    <Declaration>
+        <Class IRI="#AggravatingFemicideMurderSituation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AggravatingMurderSituation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArticleAggravatingMurder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArticleDecreaseSMurder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArticleFelonyMurder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArticleFemicideMurder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArticleIncreaseFMurder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArticleIncreaseSMurder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArticleIncreaseSMurderMilitia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArticleIncreaseUnMurder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArticleMitigatingMurder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArticleSimpleMurder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArticleUnMurder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Deceased"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DecreaseSMurderSituation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Extortion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FelonyMurder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FelonyMurderSituation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FemicideMurder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FemicideMurderSituation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FineDecreasedByJudge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FineIncreaseByJudge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InMurderSituation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IncreaseFMurderSituation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IncreaseSMurderSituation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IncreaseSMurderSituationMilitia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IncreaseUnMurderSituation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Living"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MilitiaMan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MitigatingMurderSituation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Murder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Officer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SimpleMurder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TypicalFelonyMurderEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TypicalFemicideMurderEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TypicalMurderEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TypicalUnMurderEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnMurderSituation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnitentionalMurder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnlawfulMurderEvent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Alguem"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LifeMariele"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mariele"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PunishmentDecreasedByJudgeCriteria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PunishmentIncreasedByJudgeCriteria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SituacaoFinal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TiroArmaFogo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#article121_Law2848_Year1940"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#article121_P1_Law2848_Year1940"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#article121_P2_I4_Law2848_Year1940"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#article121_P2_Law2848_Year1940"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#article121_P3_Law2848_Year1940"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#article121_P4_Law2848_Year1940"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#article121_P6_Law2848_Year1940"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#article121_P7_Law2848_Year1940"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#article61_Law2848_Year1940"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#article65_Law2848_Year1940"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#death"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#economicAdvantage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#increaseBY1_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#malPractice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#max_240M"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#max_360M"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#max_36M"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#min_12M"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#min_144M"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#min_72M"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#decreaseBy1/6To1/3decreaseBy1/6To1/3decreaseBy1_6To1_3"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#AggravatingFemicideMurderSituation"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#FemicideMurderSituation"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasCircumstance"/>
+                <ObjectUnionOf>
+                    <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#AbuseOfAuthority"/>
+                    <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#AbuseOfPower"/>
+                    <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#AgentMisfortune"/>
+                    <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#ConcealingOtherCrime"/>
+                    <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#CruelMeansEmployment"/>
+                    <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#FrivolousReason"/>
+                    <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#PrecludeDefense"/>
+                    <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#Recurrence"/>
+                    <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#Relative"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#AggravatingMurderSituation"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#InMurderSituation"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasCircumstance"/>
+                <ObjectUnionOf>
+                    <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#AbuseOfAuthority"/>
+                    <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#AbuseOfPower"/>
+                    <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#AgentMisfortune"/>
+                    <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#Recurrence"/>
+                    <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#Relative"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ArticleAggravatingMurder"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#article61_Law2848_Year1940"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ArticleDecreaseSMurder"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#article121_P1_Law2848_Year1940"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ArticleFelonyMurder"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#article121_P2_Law2848_Year1940"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ArticleFemicideMurder"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#article121_P2_I4_Law2848_Year1940"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ArticleIncreaseFMurder"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#article121_P7_Law2848_Year1940"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ArticleIncreaseSMurder"/>
+        <Class IRI="#ArticleIncreaseUnMurder"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ArticleIncreaseSMurder"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#article121_P4_Law2848_Year1940"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ArticleIncreaseSMurderMilitia"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#article121_P6_Law2848_Year1940"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ArticleMitigatingMurder"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#article65_Law2848_Year1940"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ArticleSimpleMurder"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#article121_Law2848_Year1940"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ArticleUnMurder"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#article121_P3_Law2848_Year1940"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Deceased"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasViolatedObject"/>
+            <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#Life"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#DecreaseSMurderSituation"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#InMurderSituation"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasCircumstance"/>
+                <ObjectUnionOf>
+                    <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#HeatOfPassion"/>
+                    <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#MoralReason"/>
+                    <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#SocialReason"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#FelonyMurder"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#CulpableEvent"/>
+            <Class IRI="#TypicalFelonyMurderEvent"/>
+            <Class IRI="#UnlawfulMurderEvent"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#FelonyMurderSituation"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#InMurderSituation"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasCircumstance"/>
+                <ObjectUnionOf>
+                    <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#ConcealingOtherCrime"/>
+                    <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#CruelMeansEmployment"/>
+                    <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#FrivolousReason"/>
+                    <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#PrecludeDefense"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#FemicideMurder"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#CulpableEvent"/>
+            <Class IRI="#TypicalFemicideMurderEvent"/>
+            <Class IRI="#UnlawfulMurderEvent"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#FemicideMurderSituation"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasCircumstance"/>
+                <ObjectUnionOf>
+                    <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#DomesticViolence"/>
+                    <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#FemaleDiscrimination"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasCriminalAct"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Murder"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#causedBy"/>
+                        <ObjectOneOf>
+                            <NamedIndividual IRI="#death"/>
+                        </ObjectOneOf>
+                    </ObjectSomeValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasEndurant"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#PassivePerson"/>
+                    <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#Woman"/>
+                    <Class IRI="#Deceased"/>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#InMurderSituation"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasCriminalAct"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Murder"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#causedBy"/>
+                        <ObjectOneOf>
+                            <NamedIndividual IRI="#death"/>
+                        </ObjectOneOf>
+                    </ObjectSomeValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasEndurant"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#PassivePerson"/>
+                    <Class IRI="#Deceased"/>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#IncreaseFMurderSituation"/>
+        <ObjectUnionOf>
+            <ObjectIntersectionOf>
+                <Class IRI="#FemicideMurderSituation"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasCircumstance"/>
+                    <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#RelativePresence"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasCircumstance"/>
+                    <ObjectUnionOf>
+                        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#DomesticViolence"/>
+                        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#FemaleDiscrimination"/>
+                    </ObjectUnionOf>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasCriminalAct"/>
+                    <ObjectIntersectionOf>
+                        <Class IRI="#Murder"/>
+                        <ObjectSomeValuesFrom>
+                            <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#causedBy"/>
+                            <ObjectOneOf>
+                                <NamedIndividual IRI="#death"/>
+                            </ObjectOneOf>
+                        </ObjectSomeValuesFrom>
+                    </ObjectIntersectionOf>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasEndurant"/>
+                    <ObjectIntersectionOf>
+                        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#PassivePerson"/>
+                        <Class IRI="#Deceased"/>
+                        <ObjectUnionOf>
+                            <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#Handicapped"/>
+                            <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#Pregnant"/>
+                        </ObjectUnionOf>
+                    </ObjectIntersectionOf>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#IncreaseSMurderSituation"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasCriminalAct"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Murder"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#causedBy"/>
+                        <ObjectOneOf>
+                            <NamedIndividual IRI="#death"/>
+                        </ObjectOneOf>
+                    </ObjectSomeValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasEndurant"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#PassivePerson"/>
+                    <Class IRI="#Deceased"/>
+                    <ObjectUnionOf>
+                        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#AgentOverSixty"/>
+                        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#AgentUnderFourteen"/>
+                    </ObjectUnionOf>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#IncreaseSMurderSituationMilitia"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasCriminalAct"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Murder"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#causedBy"/>
+                        <ObjectOneOf>
+                            <NamedIndividual IRI="#death"/>
+                        </ObjectOneOf>
+                    </ObjectSomeValuesFrom>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#performanceOf"/>
+                        <Class IRI="#MilitiaMan"/>
+                    </ObjectSomeValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasEndurant"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#PassivePerson"/>
+                    <Class IRI="#Deceased"/>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#IncreaseUnMurderSituation"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#UnMurderSituation"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasCircumstance"/>
+                <ObjectUnionOf>
+                    <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#EscapeFromCrimeScene"/>
+                    <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#NoHarmReducation"/>
+                    <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#WithoutImmediateAid"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MilitiaMan"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Officer"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#isAuthorOf"/>
+                <ObjectIntersectionOf>
+                    <ObjectUnionOf>
+                        <Class IRI="#Extortion"/>
+                        <Class IRI="#Murder"/>
+                    </ObjectUnionOf>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#causedBy"/>
+                        <ObjectOneOf>
+                            <NamedIndividual IRI="#economicAdvantage"/>
+                        </ObjectOneOf>
+                    </ObjectSomeValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MitigatingMurderSituation"/>
+        <ObjectUnionOf>
+            <ObjectIntersectionOf>
+                <Class IRI="#InMurderSituation"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasCircumstance"/>
+                    <ObjectUnionOf>
+                        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#DamageRepair"/>
+                        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#ResistibleDuress"/>
+                        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#Turmoil"/>
+                        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#UnfamiliairtyofLaw"/>
+                        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#VoluntaryConfession"/>
+                    </ObjectUnionOf>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasCriminalAct"/>
+                    <ObjectIntersectionOf>
+                        <Class IRI="#Murder"/>
+                        <ObjectSomeValuesFrom>
+                            <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#causedBy"/>
+                            <ObjectOneOf>
+                                <NamedIndividual IRI="#death"/>
+                            </ObjectOneOf>
+                        </ObjectSomeValuesFrom>
+                        <ObjectSomeValuesFrom>
+                            <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#performanceOf"/>
+                            <ObjectUnionOf>
+                                <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#AgentOverSeventy"/>
+                                <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#AgentUnderTwentyOne"/>
+                            </ObjectUnionOf>
+                        </ObjectSomeValuesFrom>
+                    </ObjectIntersectionOf>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasEndurant"/>
+                    <ObjectIntersectionOf>
+                        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#PassivePerson"/>
+                        <Class IRI="#Deceased"/>
+                    </ObjectIntersectionOf>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SimpleMurder"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#CulpableEvent"/>
+            <Class IRI="#TypicalMurderEvent"/>
+            <Class IRI="#UnlawfulMurderEvent"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TypicalFelonyMurderEvent"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasDisallowedSituation"/>
+            <Class IRI="#FelonyMurderSituation"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TypicalFemicideMurderEvent"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasDisallowedSituation"/>
+            <Class IRI="#FemicideMurderSituation"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TypicalMurderEvent"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasDisallowedSituation"/>
+            <Class IRI="#InMurderSituation"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#TypicalUnMurderEvent"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasDisallowedSituation"/>
+            <Class IRI="#UnMurderSituation"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UnMurderSituation"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasCriminalAct"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Murder"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#causedBy"/>
+                        <ObjectOneOf>
+                            <NamedIndividual IRI="#malPractice"/>
+                        </ObjectOneOf>
+                    </ObjectSomeValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasEndurant"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#PassivePerson"/>
+                    <Class IRI="#Deceased"/>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UnitentionalMurder"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#CulpableEvent"/>
+            <Class IRI="#TypicalUnMurderEvent"/>
+            <Class IRI="#UnlawfulMurderEvent"/>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#UnlawfulMurderEvent"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#violates"/>
+            <ObjectIntersectionOf>
+                <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#Life"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#isAssociatedTo"/>
+                    <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#PassiveAgent"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#VoluntaryConfession"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#isDisallowedBy"/>
+            <Class IRI="#ArticleMitigatingMurder"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AggravatingFemicideMurderSituation"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#DisallowedSituation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AggravatingFemicideMurderSituation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#isDisallowedBy"/>
+            <Class IRI="#ArticleAggravatingMurder"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AggravatingMurderSituation"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#DisallowedSituation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AggravatingMurderSituation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#isDisallowedBy"/>
+            <Class IRI="#ArticleAggravatingMurder"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArticleAggravatingMurder"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#CriminalLawRule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArticleAggravatingMurder"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#Incriminating"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArticleAggravatingMurder"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasPunishment"/>
+            <ObjectOneOf>
+                <NamedIndividual IRI="#PunishmentIncreasedByJudgeCriteria"/>
+            </ObjectOneOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArticleDecreaseSMurder"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#CriminalLawRule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArticleDecreaseSMurder"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#Incriminating"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArticleDecreaseSMurder"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasPunishment"/>
+            <ObjectOneOf>
+                <NamedIndividual IRI="#decreaseBy1/6To1/3decreaseBy1/6To1/3decreaseBy1_6To1_3"/>
+            </ObjectOneOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArticleFelonyMurder"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#CriminalLawRule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArticleFelonyMurder"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#Incriminating"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArticleFelonyMurder"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasPunishment"/>
+                <ObjectOneOf>
+                    <NamedIndividual IRI="#max_360M"/>
+                </ObjectOneOf>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasPunishment"/>
+                <ObjectOneOf>
+                    <NamedIndividual IRI="#min_144M"/>
+                </ObjectOneOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArticleFelonyMurder"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#specializes"/>
+            <Class IRI="#ArticleSimpleMurder"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArticleFemicideMurder"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#CriminalLawRule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArticleFemicideMurder"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#Incriminating"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArticleFemicideMurder"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasPunishment"/>
+                <ObjectOneOf>
+                    <NamedIndividual IRI="#max_360M"/>
+                </ObjectOneOf>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasPunishment"/>
+                <ObjectOneOf>
+                    <NamedIndividual IRI="#min_144M"/>
+                </ObjectOneOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArticleFemicideMurder"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#specializes"/>
+            <Class IRI="#ArticleFelonyMurder"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArticleFemicideMurder"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#specializes"/>
+            <Class IRI="#ArticleSimpleMurder"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArticleIncreaseFMurder"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#Incriminating"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArticleIncreaseFMurder"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasPunishment"/>
+            <ObjectOneOf>
+                <NamedIndividual IRI="#increaseBY1_3"/>
+            </ObjectOneOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArticleIncreaseSMurder"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#CriminalLawRule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArticleIncreaseSMurder"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasPunishment"/>
+            <ObjectOneOf>
+                <NamedIndividual IRI="#increaseBY1_3"/>
+            </ObjectOneOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArticleIncreaseSMurderMilitia"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#CriminalLawRule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArticleIncreaseSMurderMilitia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasPunishment"/>
+            <ObjectOneOf>
+                <NamedIndividual IRI="#increaseBY1_3"/>
+            </ObjectOneOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArticleIncreaseUnMurder"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#CriminalLawRule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArticleMitigatingMurder"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#CriminalLawRule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArticleMitigatingMurder"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#Incriminating"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArticleMitigatingMurder"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasPunishment"/>
+            <ObjectOneOf>
+                <NamedIndividual IRI="#PunishmentDecreasedByJudgeCriteria"/>
+            </ObjectOneOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArticleSimpleMurder"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#CriminalLawRule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArticleSimpleMurder"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#Incriminating"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArticleSimpleMurder"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasPunishment"/>
+                <ObjectOneOf>
+                    <NamedIndividual IRI="#max_240M"/>
+                </ObjectOneOf>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasPunishment"/>
+                <ObjectOneOf>
+                    <NamedIndividual IRI="#min_72M"/>
+                </ObjectOneOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArticleUnMurder"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#CriminalLawRule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArticleUnMurder"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#Incriminating"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArticleUnMurder"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasPunishment"/>
+                <ObjectOneOf>
+                    <NamedIndividual IRI="#max_36M"/>
+                </ObjectOneOf>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasPunishment"/>
+                <ObjectOneOf>
+                    <NamedIndividual IRI="#min_12M"/>
+                </ObjectOneOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Deceased"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#NaturalPerson"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DecreaseSMurderSituation"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#DisallowedSituation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DecreaseSMurderSituation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#isDisallowedBy"/>
+            <Class IRI="#ArticleDecreaseSMurder"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Extortion"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#CriminalAct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FelonyMurder"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FelonyMurderSituation"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#DisallowedSituation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FelonyMurderSituation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#isDisallowedBy"/>
+            <Class IRI="#ArticleFelonyMurder"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FemicideMurder"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FemicideMurderSituation"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#DisallowedSituation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FemicideMurderSituation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#isDisallowedBy"/>
+            <Class IRI="#ArticleFemicideMurder"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FineDecreasedByJudge"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#Fine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FineIncreaseByJudge"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#Fine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InMurderSituation"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#DisallowedSituation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InMurderSituation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#isDisallowedBy"/>
+            <Class IRI="#ArticleSimpleMurder"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IncreaseFMurderSituation"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#DisallowedSituation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IncreaseFMurderSituation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#isDisallowedBy"/>
+            <Class IRI="#ArticleIncreaseFMurder"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IncreaseSMurderSituation"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#DisallowedSituation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IncreaseSMurderSituation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#isDisallowedBy"/>
+            <Class IRI="#ArticleIncreaseSMurder"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IncreaseSMurderSituationMilitia"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#DisallowedSituation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IncreaseSMurderSituationMilitia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#isDisallowedBy"/>
+            <Class IRI="#ArticleIncreaseSMurderMilitia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IncreaseUnMurderSituation"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#DisallowedSituation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IncreaseUnMurderSituation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#isDisallowedBy"/>
+            <Class IRI="#ArticleIncreaseUnMurder"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Living"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#NaturalPerson"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MilitiaMan"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#NaturalPerson"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MitigatingMurderSituation"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#DisallowedSituation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MitigatingMurderSituation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#isDisallowedBy"/>
+            <Class IRI="#ArticleMitigatingMurder"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Murder"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#CriminalAct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Officer"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#Adult"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SimpleMurder"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TypicalFelonyMurderEvent"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#TypicalEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TypicalFemicideMurderEvent"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#TypicalEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TypicalMurderEvent"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#TypicalEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TypicalUnMurderEvent"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#TypicalEvent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnMurderSituation"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#DisallowedSituation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnitentionalMurder"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnlawfulMurderEvent"/>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#UnlawfulEvent"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Deceased"/>
+        <Class IRI="#Living"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#Adult"/>
+            <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#MentallyHealthy"/>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#Alguem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#Life"/>
+        <NamedIndividual IRI="#LifeMariele"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#PassivePerson"/>
+        <NamedIndividual IRI="#Mariele"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#PunishmentAct"/>
+        <NamedIndividual IRI="#PunishmentDecreasedByJudgeCriteria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#PunishmentAct"/>
+        <NamedIndividual IRI="#PunishmentIncreasedByJudgeCriteria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#Situation"/>
+        <NamedIndividual IRI="#SituacaoFinal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Murder"/>
+        <NamedIndividual IRI="#TiroArmaFogo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#article121_P1_Law2848_Year1940"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#article121_P2_I4_Law2848_Year1940"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#article121_P2_Law2848_Year1940"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#article121_P3_Law2848_Year1940"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#article121_P4_Law2848_Year1940"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#article121_P7_Law2848_Year1940"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#article61_Law2848_Year1940"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#article65_Law2848_Year1940"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#Intention"/>
+        <NamedIndividual IRI="#death"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#Intention"/>
+        <NamedIndividual IRI="#economicAdvantage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#DeprivingLiberty"/>
+        <NamedIndividual IRI="#increaseBY1_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#Intention"/>
+        <NamedIndividual IRI="#malPractice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#DeprivingLiberty"/>
+        <NamedIndividual IRI="#max_240M"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#DeprivingLiberty"/>
+        <NamedIndividual IRI="#max_360M"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#DeprivingLiberty"/>
+        <NamedIndividual IRI="#max_36M"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#DeprivingLiberty"/>
+        <NamedIndividual IRI="#min_12M"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#DeprivingLiberty"/>
+        <NamedIndividual IRI="#min_144M"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#DeprivingLiberty"/>
+        <NamedIndividual IRI="#min_72M"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#DeprivingLiberty"/>
+        <NamedIndividual IRI="#decreaseBy1/6To1/3decreaseBy1/6To1/3decreaseBy1_6To1_3"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#article121_Law2848_Year1940"/>
+        <NamedIndividual IRI="#article121_P2_I4_Law2848_Year1940"/>
+        <NamedIndividual IRI="#article121_P2_Law2848_Year1940"/>
+        <NamedIndividual IRI="#article121_P3_Law2848_Year1940"/>
+        <NamedIndividual IRI="#article61_Law2848_Year1940"/>
+        <NamedIndividual IRI="#article65_Law2848_Year1940"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#death"/>
+        <NamedIndividual IRI="#malPractice"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#isAuthorOf"/>
+        <NamedIndividual IRI="#Alguem"/>
+        <NamedIndividual IRI="#TiroArmaFogo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#isAssociatedTo"/>
+        <NamedIndividual IRI="#LifeMariele"/>
+        <NamedIndividual IRI="#Mariele"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasViolatedObject"/>
+        <NamedIndividual IRI="#Mariele"/>
+        <NamedIndividual IRI="#LifeMariele"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasCriminalAct"/>
+        <NamedIndividual IRI="#SituacaoFinal"/>
+        <NamedIndividual IRI="#TiroArmaFogo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasEndurant"/>
+        <NamedIndividual IRI="#SituacaoFinal"/>
+        <NamedIndividual IRI="#Mariele"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#causedBy"/>
+        <NamedIndividual IRI="#TiroArmaFogo"/>
+        <NamedIndividual IRI="#death"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#violates"/>
+        <NamedIndividual IRI="#TiroArmaFogo"/>
+        <NamedIndividual IRI="#LifeMariele"/>
+    </ObjectPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#hasViolatedObject"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/cleyton/ontologies/2018/5/untitled-ontology-10#isAssociatedTo"/>
+    </InverseObjectProperties>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+
